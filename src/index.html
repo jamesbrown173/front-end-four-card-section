@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-[#FAFAFA] w-dvw h-fit flex flex-col items-center justify-center p-10"
+  >
+    <main>
+      <!-- Title Text -->
+      <section>
+        <div
+          class="top-text w-full h-full text-center flex flex-col my-20 items-center justify-center"
+        >
+          <h1 class="text-3xl font-thin tracking-wider">
+            Reliable, efficient delivery
+          </h1>
+          <h1 class="text-3xl font-bold tracking-wider mb-5 mt-2">
+            Powered by Technology
+          </h1>
+
+          <p
+            class="sm:w-[37rem] font-thin text-lg text-gray-400 text-center px-8"
+          >
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+      </section>
+
+      <!-- Cards -->
+
+      <section>
+        <!-- Cards Container -->
+        <div
+          class="xl:flex-row cards-container flex flex-col gap-10 flex-shrink"
+        >
+          <!-- Left Column -->
+          <div class="flex flex-col items-center justify-center h-auto">
+            <!-- Supervisor -->
+            <div
+              class="bg-white flex flex-col shadow-lg border-t-4 border-[#44D3D2] rounded-md p-6 h-60 w-96 [&>*]:p-1"
+            >
+              <h1 class="font-semibold text-2xl text-gray-600">Supervisor</h1>
+              <p class="font-light text-gray-400 leading-5">
+                Monitors activity to indentify project roadblocks
+              </p>
+              <img
+                src="./images/icon-supervisor.svg"
+                alt=""
+                class="self-end mt-auto"
+              />
+            </div>
+          </div>
+
+          <!-- Middle Column -->
+          <div class="flex flex-col items-center justify-center gap-10">
+            <!-- Team Builder -->
+            <div
+              class="bg-white flex flex-col shadow-lg border-t-4 border-[#E85556] rounded-md p-6 h-60 w-96 [&>*]:p-1"
+            >
+              <h1 class="font-semibold text-2xl text-gray-600">Team Builder</h1>
+              <p class="font-light text-gray-400 leading-5">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+              <img
+                src="./images/icon-team-builder.svg"
+                alt=""
+                class="self-end mt-auto"
+              />
+            </div>
+
+            <!-- Karma -->
+            <div
+              class="bg-white flex flex-col shadow-lg border-t-4 border-[#F9AE4D] rounded-md p-6 h-60 w-96 [&>*]:p-1"
+            >
+              <h1 class="font-semibold text-2xl text-gray-600">Karma</h1>
+              <p class="font-light text-gray-400 leading-5">
+                Regularly evaluates our talent to ensure quality
+              </p>
+              <img
+                src="./images/icon-karma.svg"
+                alt=""
+                class="self-end mt-auto"
+              />
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="flex flex-col items-center justify-center gap-10">
+            <!-- Calculator -->
+            <div
+              class="bg-white flex flex-col shadow-lg border-t-4 border-[#549EF2] rounded-md p-6 h-60 w-96 [&>*]:p-1"
+            >
+              <h1 class="font-semibold text-2xl text-gray-600">Calculator</h1>
+              <p class="font-light text-gray-400 leading-5">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+              <img
+                src="./images/icon-supervisor.svg"
+                alt=""
+                class="self-end mt-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
